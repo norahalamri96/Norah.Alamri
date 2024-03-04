@@ -1,0 +1,17 @@
+function selcteCity(city) {
+	switch(city){
+	case 1:alert("Mecca is the holiest city for Muslims, with the Grand Mosque");
+		break;
+	case 2:alert("Pre-Islam Traces of early activity in the area are testified by some Thamudic inscriptions that were excavated in Wadi Briman");
+		break;
+	case 3:alert("Taif is a city and governorate in the Makkah Region of Saudi Arabia.");
+		break;
+	case 4:alert("Early history During the Pre-Islamic era the city at the site of modern Riyadh was called Hajr ");
+		break;
+	}
+}
+
+function change()
+{
+document.getElementById('second').innerHTML='I like this city:';
+}

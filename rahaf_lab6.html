@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select City</title>
+	<script type="text/javascript" src="choose_city.js"></script>
+</head>
+<body>
+	<h1 id="cityHeading">My favourite city is:</h1>
+	<form id="myForm" action="">
+
+			<label for="mecca">Mecca</label>
+		<input type="radio" id="mecca" name="city" value="Mecca" onclick="showCity(value)"><br>
+
+				<label for="medina">Medina</label>
+		<input type="radio" id="medina" name="city" value="Medina" onclick="showCity(value)"><br>
+
+		<label for="jeddah">Jeddah</label>
+		<input type="radio" id="jeddah" name="city" value="Jeddah" onclick="showCity(value)"><br>
+
+
+		<label for="riyadh">Riyadh</label>
+		<input type="radio" id="riyadh" name="city" value="Riyadh" onclick="showCity(value)"><br>
+		
+		  
+	</form>
+
+  <button id='select' onmouseover='changeText()'  onclick='onclickChange()'>Select</button>
+</body>
+</html>
